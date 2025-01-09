@@ -6,8 +6,10 @@ export default function Header() {
     <header>
       <h1>Header</h1>
       <p>This is a header.</p>
+      <div className="flex items-center">
       <SignIn />
       <SignOut />
+      </div>
     </header>
   )
 }
